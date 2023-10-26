@@ -1,0 +1,111 @@
+@media only screen and (min-width: 600px) {
+    .sidenav {
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 60px;
+      left: 10px;
+      background: #eee;
+      overflow-x: hidden;
+      padding: 6px 5px 20px 10px;
+    }
+    
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .sidenav {
+            width:100%;
+            position:static;
+            overflow-x:hidden;
+            padding: 6px 5px 20px 10px;
+        }
+    }
+    
+    .sidenav a {
+      display: block;
+    }
+    
+    .titolinav {
+        padding:0px 1px 0px;
+    }
+    
+    
+    .main {
+        /* Same width as the sidebar + left position in px */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+    }
+    
+    @media only screen and (min-width: 600px) {
+    .main {
+      margin-left: 140px;
+    }
+    }
+    
+    @media only screen and (max-width: 600px) {
+    .main {
+      margin-left: 0px;
+    }
+    }
+    
+     .mainnocal {
+        /* Same width as the sidebar + left position in px */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+      text-align:center;
+    }
+    
+    @media only screen and (min-width: 600px) {
+    .mainnocal {
+      margin-left: 270px;
+      margin-top:20px;
+    }
+    }
+    
+    @media only screen and (max-width: 600px) {
+    .mainnocal {
+      margin-left: 0px;
+    }
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    
+    .event {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 3px 6px;
+        border-radius: 4px;
+        background-color: #f7c30d;
+        color: #fff;
+        word-wrap: break-word;
+    }
+    .event.green {
+        background-color: #51ce57;
+    }
+    .event.blue {
+        background-color: #518fce;
+    }
+    .event.red {
+        background-color: #ce5151;
+    }
+    .event.yellow {
+        background-color: #9fbf00;
+    }
+    .event.purple {
+        background-color: #ff00ee;
+    }
+    .event.lightblue {
+        background-color: #00f7ff;
+    }
+    .event.orange {
+        background-color: #ffa600;
+    }
+    
+    .event.violet{
+        background-color:#b134eb;
+    }
+    

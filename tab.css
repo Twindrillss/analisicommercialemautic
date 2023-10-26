@@ -1,0 +1,22 @@
+.zui-table {
+    border: solid 1px #DDEEEE !important;
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+      margin-left: auto;
+  margin-right: auto;
+  overflow-x: scroll;
+}
+.zui-table thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.zui-table tbody th {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}

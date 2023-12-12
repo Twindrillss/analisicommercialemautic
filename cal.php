@@ -9,7 +9,7 @@ if (isset($_COOKIE["AccessoConsentitoMautic"])) {
 <?php
 //ANALISI COMMERCIALE MAUTIC CON CALENDARIO E DOWNLOAD XML - 2023 DANIEL INTRIERI - TUTTI I DIRITTI RISERVATI
 //CONCESSO PER L'UTILIZZO A 360FORMA
-//VERSIONE 0.90 rel del 13-09-2023
+//VERSIONE 1.20 rel del 12-12-2023
 
 
 //carica le risorse esterne per il funzionamento

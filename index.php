@@ -1,7 +1,10 @@
 <?php
 //controllo cookie per accesso
 //versione 3.1 rel - Daniel Intrieri - Tutti i diritti riservati - concesso in licenza
-if (isset($_COOKIE["AccessoConsentitoMautic"])) {
+$hashedvalue = hash(date("Y-m-d"));
+
+
+if (isset($_COOKIE["AccessoConsentitoMautic"]) && $hashedvalue == $_COOKIE["AccessoConsentitoMautic"]) {
 
 
 ?>

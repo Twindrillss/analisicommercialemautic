@@ -1,7 +1,10 @@
 <?php
 //controllo cookie per accesso
 
-if (isset($_COOKIE["AccessoConsentitoMautic"])) {
+$hashedvalue = hash(date("Y-m-d"));
+
+
+if (isset($_COOKIE["AccessoConsentitoMautic"]) && $hashedvalue == $_COOKIE["AccessoConsentitoMautic"]) {
 
 
 ?>
